@@ -1,12 +1,16 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Yong Li: evaluation and verification for AI systems" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/scan-dark.png">
+  <img src="assets/scan-light.png" alt="One sweep of the simulated 32-beam LiDAR in highway-sim-eval, seen from above" width="100%">
 </picture>
+
+<p align="right"><i>One sweep of the simulated LiDAR in <a href="https://github.com/chasen2041maker/highway-sim-eval">highway-sim-eval</a>, seen from above. The gaps in the rings are road hidden behind other cars.</i></p>
 
 <details>
 <summary><b>中文版：点这里展开</b></summary>
 
 ## 你好，我是 Yong Li
+
+顶部那张图是 highway-sim-eval 里假激光雷达扫的一圈（从天上往下看），圆环上的缺口是被别的车挡住的路面。
 
 我本科读的是生物工程，之后在悉尼 UNSW 读完人工智能硕士，现在的工作是写后端和 AI Agent。业余时间我在自学自动驾驶，办法是自己动手搭：驾驶系统的每个模块自己写，放进 CARLA 仿真器里闭环跑，再把它出错的地方量出来。
 
