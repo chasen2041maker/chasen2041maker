@@ -5,9 +5,9 @@
 
 ## Hi, I'm Yong Li
 
-I studied bioengineering as an undergrad, did my master's at UNSW Sydney, and now write backend services and AI agents for a living. In my spare time I'm teaching myself autonomous driving by building it: I write each module of a driving stack myself, run it closed-loop in the CARLA simulator, and measure where it goes wrong.
+I studied bioengineering as an undergrad, then did a master's in artificial intelligence at UNSW Sydney, and now write backend services and AI agents for a living. In my spare time I'm teaching myself autonomous driving by building it: I write each module of a driving stack myself, run it closed-loop in the CARLA simulator, and measure where it goes wrong.
 
-我本科读的是生物工程，在悉尼 UNSW 读完硕士，现在的工作是写后端和 AI Agent。业余时间我在自学自动驾驶，办法是自己动手搭：驾驶系统的每个模块自己写，放进 CARLA 仿真器里闭环跑，再把它出错的地方量出来。
+我本科读的是生物工程，之后在悉尼 UNSW 读完人工智能硕士，现在的工作是写后端和 AI Agent。业余时间我在自学自动驾驶，办法是自己动手搭：驾驶系统的每个模块自己写，放进 CARLA 仿真器里闭环跑，再把它出错的地方量出来。
 
 Most of my projects come back to one question: how would I know this result is right?
 
