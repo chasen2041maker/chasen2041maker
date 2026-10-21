@@ -18,7 +18,7 @@ One rule across all of it: **a result counts only if it is measured and traceabl
 <td width="50%" valign="top">
 <h3><a href="https://github.com/chasen2041maker/highway-sim-eval">highway-sim-eval</a></h3>
 <p><b>Closed-loop simulation and evaluation platform on CARLA 0.9.16</b></p>
-<sub>基于 CARLA 的智驾仿真评测与数据闭环平台</sub>
+<p>基于 CARLA 的智驾仿真评测与数据闭环平台</p>
 <ul>
 <li>Driving stack from scratch: kinematic bicycle model, PID with anti-windup, Pure Pursuit, IDM car following</li>
 <li>LiDAR pipeline on a simulated 32-beam scan: ground removal, DBSCAN, boxes, then detection metrics at nuScenes gates (recall <b>0.40 / 0.60 / 1.00</b> at 0.5 / 2 / 4 m)</li>
@@ -30,7 +30,7 @@ One rule across all of it: **a result counts only if it is measured and traceabl
 <td width="50%" valign="top">
 <h3><a href="https://github.com/chasen2041maker/Bev">Bev</a></h3>
 <p><b>BEV perception from first principles, in 19 lessons</b></p>
-<sub>从针孔相机到 BEV、占用网络和端到端</sub>
+<p>从针孔相机到 BEV、占用网络和端到端</p>
 <ul>
 <li>Pinhole projection → LSS → BEVFormer → sparse queries (Sparse4D) → occupancy → end-to-end (UniAD, SparseDrive)</li>
 <li>Every lesson: one interactive animation, hand-written core functions, tests checked against hand computation and KITTI calibration</li>
@@ -48,7 +48,7 @@ One rule across all of it: **a result counts only if it is measured and traceabl
 <td width="50%" valign="top">
 <h3><a href="https://github.com/chasen2041maker/GroundGuard">GroundGuard</a></h3>
 <p><b>Deterministic fact gate for tool-using agents</b></p>
-<sub>Agent 答案的确定性事实校验，不用 LLM 当裁判</sub>
+<p>Agent 答案的确定性事实校验，不用 LLM 当裁判</p>
 <ul>
 <li>Numeric claims must trace back to tool results recorded in the same run</li>
 <li>Benchmark: catches <b>71 / 71</b> expected failures on a 200-case bilingual dataset, <b>0</b> false positives</li>
@@ -58,7 +58,7 @@ One rule across all of it: **a result counts only if it is measured and traceabl
 <td width="50%" valign="top">
 <h3><a href="https://github.com/chasen2041maker/AgentTrust-Runtime">AgentTrust-Runtime</a></h3>
 <p><b>Policy, approvals and verifiable evidence for agent tool calls</b></p>
-<sub>Agent 工具调用的策略、审批与证据链</sub>
+<p>Agent 工具调用的策略、审批与证据链</p>
 <ul>
 <li>Fail-closed controls around OpenAI Agents, LangGraph, Pydantic AI, MCP or plain Python tools</li>
 <li>Human approval that survives restarts and replays the original arguments</li>
@@ -70,7 +70,7 @@ One rule across all of it: **a result counts only if it is measured and traceabl
 <td width="50%" valign="top">
 <h3><a href="https://github.com/chasen2041maker/BidRadar">BidRadar</a></h3>
 <p><b>Evidence-first research agent for public tenders</b></p>
-<sub>证据优先的招投标研究 Agent</sub>
+<p>证据优先的招投标研究 Agent</p>
 <ul>
 <li>Five fixed pipeline steps with per-claim verification and program checks, instead of one large tool loop</li>
 <li>Every conclusion quotes the source text; unknown stays "to verify"</li>
@@ -81,7 +81,7 @@ One rule across all of it: **a result counts only if it is measured and traceabl
 <td width="50%" valign="top">
 <h3><a href="https://github.com/chasen2041maker/research-forge">research-forge</a></h3>
 <p><b>Turn research ideas into reproducible experiments</b></p>
-<sub>把研究想法变成可复现、可审计的实验</sub>
+<p>把研究想法变成可复现、可审计的实验</p>
 <ul>
 <li>A frozen spec (paper hash, git commit, Docker image digest, command, metrics) runs in a locked-down container</li>
 <li>Outputs <code>VERIFIED</code> only when code, metrics and evidence all match</li>
@@ -97,4 +97,4 @@ One rule across all of it: **a result counts only if it is measured and traceabl
 
 **Learning now** · multi-object tracking (Kalman filter + Hungarian matching) · BEV perception · C++ · ROS 2
 
-<sub>Background: M.S., UNSW Sydney · backend and AI-agent engineer</sub>
+**Background** · M.S., UNSW Sydney · backend and AI-agent engineer
