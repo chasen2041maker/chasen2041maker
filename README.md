@@ -14,7 +14,7 @@
 
 ### 最近在做
 
-- **2026-10** · 激光雷达目标跟踪，卡尔曼滤波（进行中）。直接用相邻两帧算车速，最多差 5.5 m/s。
+- **2026-10** · 激光雷达目标跟踪（进行中）。同一组数据，相邻两帧相减算前车车速最多差 5.5 m/s，卡尔曼滤波最多差 0.35 m/s。
 - **2026-10** · 4% 上坡上去地面：固定高度切出 3371 个假障碍物，RANSAC 拟合地面后为 0。
 - **2026-10** · 给 highway-sim-eval 加了 CI，第一次运行就查出 `requirements.txt` 漏了依赖。
 
@@ -36,7 +36,7 @@ Backend and AI-agent engineer with a master's in AI from UNSW Sydney (bioenginee
 
 ### Now
 
-- **Oct 2026** · Kalman filter for LiDAR tracking (in progress). Speed from two-frame differences was off by up to 5.5 m/s.
+- **Oct 2026** · LiDAR tracking (in progress). On the same data, two-frame differencing got the lead car's speed wrong by up to 5.5 m/s; a Kalman filter, by at most 0.35 m/s.
 - **Oct 2026** · Ground removal on a 4% slope: a fixed height cut made 3,371 false obstacles; a RANSAC ground plane made 0.
 - **Oct 2026** · Added CI to highway-sim-eval. The first run caught a dependency missing from `requirements.txt`.
 
