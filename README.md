@@ -14,7 +14,7 @@
 
 ### 最近在做
 
-- **2026-10** · 激光雷达目标跟踪（进行中）。同一组数据，相邻两帧相减算前车车速最多差 5.5 m/s，卡尔曼滤波最多差 0.35 m/s。
+- **2026-10** · 多目标跟踪（进行中）：卡尔曼滤波 + 匈牙利匹配 + 编号管理，自己手写。车被挡住 0.5 秒，轨迹最多等 10 帧时编号不变，只等 3 帧就会换成新编号。相邻两帧相减算前车车速最多差 5.5 m/s，卡尔曼滤波最多差 0.35 m/s。
 - **2026-10** · 4% 上坡上去地面：固定高度切出 3371 个假障碍物，RANSAC 拟合地面后为 0。
 - **2026-10** · 给 highway-sim-eval 加了 CI，第一次运行就查出 `requirements.txt` 漏了依赖。
 
@@ -36,7 +36,7 @@ Backend and AI-agent engineer with a master's in AI from UNSW Sydney (bioenginee
 
 ### Now
 
-- **Oct 2026** · LiDAR tracking (in progress). On the same data, two-frame differencing got the lead car's speed wrong by up to 5.5 m/s; a Kalman filter, by at most 0.35 m/s.
+- **Oct 2026** · Multi-object tracking (in progress): Kalman filter + Hungarian matching + track IDs, hand-written. A car hidden for 0.5 s keeps its ID if tracks wait 10 frames; with 3 frames it comes back under a new one. Two-frame differencing got the lead car's speed wrong by up to 5.5 m/s; the Kalman filter, by at most 0.35 m/s.
 - **Oct 2026** · Ground removal on a 4% slope: a fixed height cut made 3,371 false obstacles; a RANSAC ground plane made 0.
 - **Oct 2026** · Added CI to highway-sim-eval. The first run caught a dependency missing from `requirements.txt`.
 
