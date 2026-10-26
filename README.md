@@ -14,7 +14,7 @@
 
 ### 最近在做
 
-- **2026-10** · 多目标跟踪：卡尔曼滤波 + 匈牙利匹配 + 编号管理，自己手写，并对着真值打分。车被挡住 0.5 秒，轨迹最多等 10 帧时编号不变，只等 3 帧就会换成新编号；但等得久，护栏一次误检留下的鬼影也多活 7 帧（11 vs 4）。相邻两帧相减算前车车速最多差 5.5 m/s，卡尔曼滤波最多差 0.35 m/s。
+- **2026-10** · 多目标跟踪：卡尔曼滤波 + 匈牙利匹配 + 编号管理，自己手写，并对着真值打分；又用 C++ 重写了一遍（CMake + googletest），整段逐帧和 Python 版一致。车被挡住 0.5 秒，轨迹最多等 10 帧时编号不变，只等 3 帧就会换成新编号；但等得久，护栏一次误检留下的鬼影也多活 7 帧（11 vs 4）。相邻两帧相减算前车车速最多差 5.5 m/s，卡尔曼滤波最多差 0.35 m/s。
 - **2026-10** · 4% 上坡上去地面：固定高度切出 3371 个假障碍物，RANSAC 拟合地面后为 0。
 - **2026-10** · 给 highway-sim-eval 加了 CI，第一次运行就查出 `requirements.txt` 漏了依赖。
 
@@ -36,7 +36,7 @@ Backend and AI-agent engineer with a master's in AI from UNSW Sydney (bioenginee
 
 ### Now
 
-- **Oct 2026** · Multi-object tracking: Kalman filter + Hungarian matching + track IDs, hand-written and scored against ground truth. A car hidden for 0.5 s keeps its ID if tracks wait 10 frames; with 3 frames it comes back under a new one. Waiting longer also keeps a one-frame guardrail ghost alive for 11 frames instead of 4. Two-frame differencing got the lead car's speed wrong by up to 5.5 m/s; the Kalman filter, by at most 0.35 m/s.
+- **Oct 2026** · Multi-object tracking: Kalman filter + Hungarian matching + track IDs, hand-written and scored against ground truth, then ported to C++ (CMake + googletest), matching the Python version frame by frame. A car hidden for 0.5 s keeps its ID if tracks wait 10 frames; with 3 frames it comes back under a new one. Waiting longer also keeps a one-frame guardrail ghost alive for 11 frames instead of 4. Two-frame differencing got the lead car's speed wrong by up to 5.5 m/s; the Kalman filter, by at most 0.35 m/s.
 - **Oct 2026** · Ground removal on a 4% slope: a fixed height cut made 3,371 false obstacles; a RANSAC ground plane made 0.
 - **Oct 2026** · Added CI to highway-sim-eval. The first run caught a dependency missing from `requirements.txt`.
 
