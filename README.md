@@ -1,16 +1,16 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/scan-dark.png">
-  <img src="assets/scan-light.png" alt="One sweep of the simulated 32-beam LiDAR in highway-sim-eval, seen from above" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.gif">
+  <img src="assets/banner-light.gif" alt="Animation from highway-sim-eval in three scenes: a simulated LiDAR sweep turned into object boxes (ground removal, DBSCAN); a Kalman multi-object tracker keeping IDs through an occlusion and dropping a ghost track; a MOBIL decision and a quintic lane change in the Frenet frame, followed with Pure Pursuit" width="100%">
 </picture>
 
-<p align="right"><i>One LiDAR sweep from <a href="https://github.com/chasen2041maker/highway-sim-eval">highway-sim-eval</a>, seen from above.</i></p>
+<p align="right"><i>See → track → drive: every frame computed by the code in <a href="https://github.com/chasen2041maker/highway-sim-eval">highway-sim-eval</a>.</i></p>
 
 <details>
 <summary><b>中文版：点这里展开</b></summary>
 
 ## 你好，我是 Yong Li
 
-后端和 AI Agent 工程师，悉尼 UNSW 人工智能硕士（本科生物工程）。业余时间从零写一套自动驾驶系统，放进 CARLA 仿真器里测。顶部的图是这个项目里假激光雷达扫的一圈，从上往下看。
+后端和 AI Agent 工程师，悉尼 UNSW 人工智能硕士（本科生物工程）。业余时间从零写一套自动驾驶系统，放进 CARLA 仿真器里测。顶部的动图是这个项目的代码一帧一帧算出来的：雷达扫一圈、分出物体（SEE）→ 多车跟踪，被挡住也不丢编号（TRACK）→ 判断能不能变道、画曲线、跟着开过去（DRIVE）。
 
 ### 最近在做
 
