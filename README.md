@@ -20,7 +20,7 @@
 
 ### 项目
 
-- **[highway-sim-eval](https://github.com/chasen2041maker/highway-sim-eval)** · 从零写的驾驶系统（控制、跟车、激光雷达感知、跟踪、变道），在 CARLA 0.9.16 里闭环测，正在加场景评测。98 个 Python + 21 个 C++ 测试，每次 push 自动跑 · [交互动画讲解](https://chasen2041maker.github.io/highway-sim-eval/)
+- **[highway-sim-eval](https://github.com/chasen2041maker/highway-sim-eval)** · 从零写的驾驶系统（控制、跟车、激光雷达感知、跟踪、变道），在 CARLA 0.9.16 里闭环测，正在加场景评测。104 个 Python + 21 个 C++ 测试，每次 push 自动跑 · [交互动画讲解](https://chasen2041maker.github.io/highway-sim-eval/)
 - **[Bev](https://github.com/chasen2041maker/Bev)** · 写给自己的 BEV 感知课程，19 课，目前暂停。
 - AI Agent 方向的项目（GroundGuard、AgentTrust-Runtime、BidRadar、research-forge）在下面的置顶里。
 
@@ -42,7 +42,7 @@ Backend and AI-agent engineer with a master's in AI from UNSW Sydney (bioenginee
 
 ### Projects
 
-- **[highway-sim-eval](https://github.com/chasen2041maker/highway-sim-eval)** · Driving stack written from scratch (control, car following, LiDAR perception, tracking, lane change), run closed-loop in CARLA 0.9.16, now growing a scenario-evaluation layer. 98 Python + 21 C++ tests on CI · [interactive explainers](https://chasen2041maker.github.io/highway-sim-eval/)
+- **[highway-sim-eval](https://github.com/chasen2041maker/highway-sim-eval)** · Driving stack written from scratch (control, car following, LiDAR perception, tracking, lane change), run closed-loop in CARLA 0.9.16, now growing a scenario-evaluation layer. 104 Python + 21 C++ tests on CI · [interactive explainers](https://chasen2041maker.github.io/highway-sim-eval/)
 - **[Bev](https://github.com/chasen2041maker/Bev)** · A 19-lesson BEV perception course I'm writing for myself. Paused for now.
 - My AI-agent projects (GroundGuard, AgentTrust-Runtime, BidRadar, research-forge) are pinned below.
 
